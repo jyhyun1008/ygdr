@@ -17,62 +17,52 @@
 
 	<div id="tab-1" class="tab-content current">
 
-* 링크 1
-* 링크 2
+<img src="./assets/chr/Duanmuci/intro.png">
 
 	</div>
 	<div id="tab-2" class="tab-content">
 
-* 링크 3
-* 링크 4
+<img src="./assets/chr/Zaiyu/intro.png">
 
 	</div>
 	<div id="tab-3" class="tab-content">
 
-* 링크 5
-* 링크 6
+<img src="./assets/chr/Ranqiu/intro.png">
 
 	</div>
     <div id="tab-4" class="tab-content">
 
-* 링크 3
-* 링크 4
+<img src="./assets/chr/Yanhui/intro.png">
 
 	</div>
 	<div id="tab-5" class="tab-content">
 
-* 링크 5
-* 링크 6
+<img src="./assets/chr/Zhongyou/intro.png">
 
 	</div>
     <div id="tab-6" class="tab-content">
 
-* 링크 3
-* 링크 4
+<img src="./assets/chr/Yanyan/intro.png">
 
 	</div>
 	<div id="tab-7" class="tab-content">
 
-* 링크 5
-* 링크 6
+<img src="./assets/chr/Bushang/intro.png">
 
 	</div>
     <div id="tab-8" class="tab-content">
 
-* 링크 3
-* 링크 4
+<img src="./assets/chr/Rangeng/intro.png">
 
 	</div>
 	<div id="tab-9" class="tab-content">
 
-* 링크 5
-* 링크 6
+<img src="./assets/chr/Ranyong/intro.png">
 
 	</div>
     <div id="tab-10" class="tab-content">
 
-* 링크 5
-* 링크 6
+<img src="./assets/chr/Minsun/intro.png">
 
 	</div>
 </div>
