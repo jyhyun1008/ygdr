@@ -1,38 +1,40 @@
 
 # Categories
 
-<div class="tabmenu out-tabmenu">
-  <ul>
-    <li id="tab1" class="btnCon"> 
-      <input type="radio" checked name="tabmenu" id="tabmenu1">
-      <label for="tabmenu1">menu1</label>
-      <div class="tabCon" >
-        
+<div class="wrap">
+  <div class="tab_menu">
+    <ul class="list">
+      <li class="is_on">
+        <a href="#tab1" class="btn">Tab Button1</a>
+      </li>
+      <li>
+        <a href="#tab2" class="btn">Tab Button2</a>
+      </li>
+      <li>
+        <a href="#tab3" class="btn">Tab Button3</a>
+      </li>
+    </ul>
+
+    <div class="cont_area">
+      <div id="tab1" class="cont" style="display:block;">
+
 * 포스트 제목
 * 포스트 제목 2
-      
+
       </div>
-      
-    </li>
-    <li id="tab2" class="btnCon"><input type="radio" name="tabmenu" id="tabmenu2">
-      <label for="tabmenu2">menu2</label>
-      <div class="tabCon" >
-      
+      <div id="tab2" class="cont">
+
 * 다른 주제 포스트 제목 1
 * 다른 주제 포스트 제목 2
 
       </div>
-      
-    </li>    
-    <li id="tab3" class="btnCon"><input type="radio" name="tabmenu" id="tabmenu3">
-      <label for="tabmenu3">menu3</label>
-      <div class="tabCon" >
+      <div id="tab3" class="cont">
 
 * 포스트 제목 3
 * 포스트 제목 4
-      
+
       </div>
-      
-    </li>
-  </ul>
+    </div>
+
+  </div>
 </div>
