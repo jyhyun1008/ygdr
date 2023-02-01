@@ -1,5 +1,5 @@
 
-# Characters
+# Click to Read
 
 <div class="container2">
 	<ul class="tabs" style="max-width: 700px;">
