@@ -193,21 +193,19 @@ img {
   }
   
   pre {
-      font-family: "Mono";
       padding: 18px;
       margin: 10px 0;
       color: var(--accent);
       background-color: var(--bg);
-      border-radius: 25px;
+      border-radius: 5px;
       overflow-x: scroll;
           word-break: break-all;
   }
   
   code {
-      font-family: "Mono";
       background-color: var(--bg);
       color: var(--accent);
-      border-radius: 15px;
+      border-radius: 10px;
       padding: 5px 10px;
       word-break: break-all;
   }
@@ -216,7 +214,7 @@ img {
       padding: 18px;
       margin: 10px 0;
       background-color: #fff;
-      border-radius: 25px;
+      border-radius: 5px;
   }
   
   blockquote:before {
@@ -299,8 +297,9 @@ img {
 }
 
 .youtube {
-	width: 100%;
+	width: 49%;
 	aspect-ratio: 16 / 9;
 	border-radius: 15px;
+	overflow: hidden;
 	margin-bottom: 10px;
 }
