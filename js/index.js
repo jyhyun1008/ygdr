@@ -1,22 +1,17 @@
-const tabItem = document.querySelectorAll(".tab-container__item");
-const tabContent = document.querySelectorAll(".content-container__content");
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
 
-tabItem.forEach((item) => {
-  item.addEventListener("click", tabHandler);
-});
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
 
-function tabHandler(item) {
-  const tabTarget = item.currentTarget;
-  const target = tabTarget.dataset.tab;
-  tabItem.forEach((title) => {
-    title.classList.remove("active");
-  });
-  tabContent.forEach((target) => {
-    target.classList.remove("target");
-  });
-  document.querySelector("#" + target).classList.add("target");
-  tabTarget.classList.add("active");
-}
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+
 
 let vh = window.innerHeight * 0.01;
 let vw = window.innerWidth * 0.01;
