@@ -1,5 +1,5 @@
 
-# Click to Read
+---
 
 <div class="container2">
 	<ul class="tabs">
