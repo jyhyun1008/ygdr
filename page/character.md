@@ -4,15 +4,15 @@
 <div class="container2">
 	<ul class="tabs">
 		<li class="tab-link current" data-tab="tab-1"><img src="./assets/chr/Duanmuci/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #8041D9;"></li>
-		<li class="tab-link" data-tab="tab-2"><img src="./assets/chr/Zaiyu/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #47C83E;"></li>
-		<li class="tab-link" data-tab="tab-3"><img src="./assets/chr/Ranqiu/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #FFBB00;"></li>
+		<li class="tab-link" data-tab="tab-2"><img src="./assets/chr/Zaiyu/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #1DD296;"></li>
+		<li class="tab-link" data-tab="tab-3"><img src="./assets/chr/Ranqiu/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #C4B68F;"></li>
 		<li class="tab-link" data-tab="tab-4"><img src="./assets/chr/Yanhui/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #F361A6;"></li>
 		<li class="tab-link" data-tab="tab-5"><img src="./assets/chr/Zhongyou/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #4641D9;"></li>
-		<li class="tab-link" data-tab="tab-6"><img src="./assets/chr/Yanyan/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #EE7C3E;"></li>
-		<li class="tab-link" data-tab="tab-7"><img src="./assets/chr/Bushang/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #F1DEA9;"></li>
-		<li class="tab-link" data-tab="tab-8"><img src="./assets/chr/Rangeng/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #CEA1AA;"></li>
-		<li class="tab-link" data-tab="tab-9"><img src="./assets/chr/Ranyong/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #A8CBA5;"></li>
-		<li class="tab-link" data-tab="tab-10"><img src="./assets/chr/Minsun/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #5D6282;"></li>
+		<li class="tab-link" data-tab="tab-6"><img src="./assets/chr/Yanyan/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #FF5E00;"></li>
+		<li class="tab-link" data-tab="tab-7"><img src="./assets/chr/Bushang/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #FFBB00;"></li>
+		<li class="tab-link" data-tab="tab-8"><img src="./assets/chr/Rangeng/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #ED0000;"></li>
+		<li class="tab-link" data-tab="tab-9"><img src="./assets/chr/Ranyong/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #87CE00;"></li>
+		<li class="tab-link" data-tab="tab-10"><img src="./assets/chr/Minsun/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #00D8FF;"></li>
 	</ul>
 
 	<div id="tab-1" class="tab-content current">
