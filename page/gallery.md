@@ -1,5 +1,5 @@
 
-# Click to Zoom
+---
 
 <div class="gallery-container">
   ![이미지 설명](https://gwansangg.am/hgjs/files/all.png)(./)
