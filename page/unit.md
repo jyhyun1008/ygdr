@@ -3,8 +3,8 @@
 
 <div class="container2">
 	<ul class="tabs">
-		<li class="tab-link current" data-tab="tab-1"><img src="./assets/unit/yoroshikukara.png" style="max-height: 50px;"></li>
-		<li class="tab-link" data-tab="tab-2"><img src="./assets/unit/tropicalfruits.png" style="max-height: 50px;"></li>
+		<li class="tab-link current" data-tab="tab-1"><img src="./assets/unit/yoroshikukara.png" style="max-height: 40px;"></li>
+		<li class="tab-link" data-tab="tab-2"><img src="./assets/unit/tropicalfruits.png" style="max-height: 40px;"></li>
 		<li class="tab-link" data-tab="tab-3"><img src="./assets/unit/tritone.png" style="max-height: 50px;"></li>
 	</ul>
 
