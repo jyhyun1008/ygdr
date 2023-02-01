@@ -144,6 +144,7 @@ if (!page) {
     .then((out) => {
         document.querySelector(".page_title").innerText = 'HGJS'
         document.querySelector("#post").innerHTML += parseMd(out)
+	document.body.innerHTML += "<footer><div>弦歌之聲_HGJS | Copyright 2023 HGJS All rights reserved</div></footer>"
     })
     .catch(err => { throw err });
 } else if (page) {
@@ -166,6 +167,7 @@ if (!page) {
                 $("#"+tab_id).addClass('current');
             })
         
+	document.body.innerHTML += "<footer><div>弦歌之聲_HGJS | Copyright 2023 HGJS All rights reserved</div></footer>"
         })
     })
     .catch(err => { throw err });
