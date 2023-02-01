@@ -1,5 +1,5 @@
 
-# Categories
+---
 
 <div class="container2">
 	<ul class="tabs">
