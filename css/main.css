@@ -37,6 +37,7 @@ footer{
   height: 150px;
   position : relative;
   background-color: var(--textaccent);
+  z-index: -1;
 }
 
 footer div{
