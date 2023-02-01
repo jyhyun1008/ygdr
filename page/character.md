@@ -3,16 +3,16 @@
 
 <div class="container2">
 	<ul class="tabs">
-		<li class="tab-link current" data-tab="tab-1">Duanmu Ci</li>
-		<li class="tab-link" data-tab="tab-2">Zai Yu</li>
-		<li class="tab-link" data-tab="tab-3">Ran Qiu</li>
-		<li class="tab-link" data-tab="tab-4">Yan Hui</li>
-		<li class="tab-link" data-tab="tab-5">Zhong You</li>
-		<li class="tab-link" data-tab="tab-6">Yan Yan</li>
-		<li class="tab-link" data-tab="tab-7">Bu Shang</li>
-		<li class="tab-link" data-tab="tab-8">Ren Geng</li>
-		<li class="tab-link" data-tab="tab-9">Ran Yong</li>
-		<li class="tab-link" data-tab="tab-10">Min Sun</li>
+		<li class="tab-link current" data-tab="tab-1"><img src="./assets/chr/Duanmuci/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
+		<li class="tab-link" data-tab="tab-2"><img src="./assets/chr/Zaiyu/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
+		<li class="tab-link" data-tab="tab-3"><img src="./assets/chr/Ranqiu/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
+		<li class="tab-link" data-tab="tab-4"><img src="./assets/chr/Yanhui/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
+		<li class="tab-link" data-tab="tab-5"><img src="./assets/chr/Zhongyou/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
+		<li class="tab-link" data-tab="tab-6"><img src="./assets/chr/Yanyan/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
+		<li class="tab-link" data-tab="tab-7"><img src="./assets/chr/Bushang/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
+		<li class="tab-link" data-tab="tab-8"><img src="./assets/chr/Rangeng/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
+		<li class="tab-link" data-tab="tab-9"><img src="./assets/chr/Ranyong/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
+		<li class="tab-link" data-tab="tab-10"><img src="./assets/chr/Minsun/face.png" style="max-width: 50px; border-radius: 50%; border: 7px solid #8041D9;"></li>
 	</ul>
 
 	<div id="tab-1" class="tab-content current">
