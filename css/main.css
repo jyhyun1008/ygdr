@@ -17,6 +17,11 @@
     font-family: 'Noto Serif JP', serif;
 
   }
+
+body {
+    background-color: var(--bg);
+}
+
   .wrapper{
     position: fixed;
     top: 0;
@@ -109,7 +114,7 @@
   input[type="checkbox"]{
     display: none;
   }
-  .post{
+  #post{
     margin: calc(100vw * 4.5 / 16) auto 100px auto;
     font-size: 16px;
     color: #202020;
@@ -155,8 +160,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    -webkit-mask-image:-webkit-linear-gradient(top, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+    -webkit-mask-image:-webkit-linear-gradient(top, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 90%, rgba(247,247,247,0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 90%, rgba(247,247,247,0) 100%);
 }
 
 span {
@@ -165,13 +170,133 @@ span {
     font-weight: inherit;
 }
 
-.item-wrap:before{
+a {
+	color: var(--accent);
+}
+
+i {
+    font-size: inherit;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  del {
+      text-decoration: line-through;
+  }
+  
+  pre {
+      font-family: "Mono";
+      padding: 18px;
+      margin: 10px 0;
+      color: var(--accent);
+      background-color: var(--bg);
+      border-radius: 25px;
+      overflow-x: scroll;
+          word-break: break-all;
+  }
+  
+  code {
+      font-family: "Mono";
+      background-color: var(--bg);
+      color: var(--accent);
+      border-radius: 15px;
+      padding: 5px 10px;
+      word-break: break-all;
+  }
+  
+  blockquote {
+      padding: 18px;
+      margin: 10px 0;
+      background-color: #fff;
+      border-radius: 25px;
+  }
+  
+  blockquote:before {
+      content: "\201C";
+      font-size: 2em;
+      font-family: Georgia;
+      color: var(--yellow);
+      float: left;
+      margin: -5px 10px 0px -10px;
+    }
+  
+  .item ul {
+      display: block;
+      list-style: none; /* Remove default bullets */
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  
+  .item ul li::before {
+      content: "\2574";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      font-weight: bold; /* If you want it to be bold */
+      display: inline-block; /* Needed to add space between the bullet and the text */
+      width: 1em; /* Also needed for space (tweak if needed) */
+      margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
+  
+  .item ul li {
+      margin-bottom: 10px;
+  }
+  
+  .item ol {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+      list-style-type: decimal;
+  }
+  
+.item ol li {
+    margin-bottom: 10px;
+}
+
+.page_title {
+    width: 100%;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.line{
     color: var(--yellow);
     width: 840px;
     max-width: 100%;
-    margin: 10px calc( 50% - 20px );
+    margin: 10px auto;
     text-align: center;
-    font-size: 40px;
-    content: "✿";
+    font-size: 30px;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
+
+
+.gallery-container {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.gallery {
+	width: 49%;
+	aspect-ratio: 1 / 1;
+	border-radius: 15px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.youtube {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
