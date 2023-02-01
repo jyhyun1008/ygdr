@@ -28,6 +28,17 @@ body {
     background-color: var(--bg);
 }
 
+#wrapper{
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 150px;
+}
+footer{
+  height: 150px;
+  position : relative;
+  transform : translateY(-100%);
+}
+
   .wrapper{
     position: fixed;
     top: 0;
