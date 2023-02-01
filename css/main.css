@@ -279,44 +279,60 @@ img {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
   
-  .tabmenu{ 
-    width: 100%;
-    margin: 0 auto; 
-    position:relative; 
+
+  .container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    margin: 0 auto;
   }
-  .tabmenu ul{
-    list-style: none;
-    position: relative;
+  .tab-container {
+    display: flex;
   }
-  .tabmenu > ul > li{
-    display:  inline-block;
-    width:20%;
-    text-align:center; 
-    background :#f9f9f9;
-    line-height:40px;
+  .tab-container__item {
+    cursor: pointer;
   }
-  .tabmenu label{
-    display:block;
-    width:100%; 
-    height:40px;
-    line-height:40px;
+  .tab-container__item:hover {
+    background-color: #369fff;
+    transition: background-color 0.4s ease-in-out;
   }
-  .tabmenu input{display:none;}
-  .tabCon{
-    display:none; 
-    width: 100%;
-    text-align:left; 
-    position:absolute; 
-    left:0; 
-    top:40px; 
-    box-sizing: border-box; 
+  .tab-container__item:hover .tab-container__item--title {
+    color: #fff;
+    transition: color 0.4s ease-in-out;
   }
-  .tabmenu input:checked ~ label{
-    background:#ccc;
+  .tab-container__item.active {
+    border-bottom: 2px solid #369fff;
   }
-  .tabmenu input:checked ~ .tabCon{
-    display:block;
+  .tab-container__item.active .tab-container__item--title {
+    color: #369fff;
   }
+  .tab-container__item.active:hover {
+    background-color: #369fff;
+    transition: background-color 0.4s ease-in-out;
+  }
+  .tab-container__item.active:hover .tab-container__item--title {
+    color: #fff;
+    transition: color 0.4s ease-in-out;
+  }
+  .tab-container__item--title {
+    display: inline-block;
+    color: #999;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 15px;
+  }
+  .content-container {
+    padding: 10px;
+  }
+  .content-container__content {
+    display: none;
+  }
+  .content-container__content.target {
+    display: block;
+  }
+  
 
 .gallery-container {
 	display: flex;

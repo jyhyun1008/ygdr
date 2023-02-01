@@ -1,39 +1,49 @@
 
 # Categories
 
-<div class="tabmenu out-tabmenu">
-  <ul>
-    <li id="tab1" class="btnCon"> 
-      <input type="radio" checked name="tabmenu" id="tabmenu1">
-      <label for="tabmenu1">menu1</label>
-      <div class="tabCon" >
-        
-* 포스트 제목
-* 포스트 제목 2
-      
-      </div>
-      
-    </li>
-    <li id="tab2" class="btnCon"><input type="radio" name="tabmenu" id="tabmenu2">
-      <label for="tabmenu2">menu2</label>
-      <div class="tabCon" >
-      
-* 다른 주제 포스트 제목 1
-* 다른 주제 포스트 제목 2
-
-      </div>
-      
-    </li>    
-    <li id="tab3" class="btnCon"><input type="radio" name="tabmenu" id="tabmenu3">
-      <label for="tabmenu3">menu3</label>
-      <div class="tabCon" >
-
-* 포스트 제목 3
-* 포스트 제목 4
-      
-      </div>
-      
-    </li>
-  </ul>
-</div>
-
+    <div class="container2">
+      <ul class="tab-container">
+        <li class="tab-container__item active" data-tab="tab1">
+          <a class="tab-container__item--title" href="#">Tab1</a>
+        </li>
+        <li class="tab-container__item" data-tab="tab2">
+          <a class="tab-container__item--title" href="#">Tab2</a>
+        </li>
+        <li class="tab-container__item" data-tab="tab3">
+          <a class="tab-container__item--title" href="#">Tab3</a>
+        </li>
+        <li class="tab-container__item" data-tab="tab4">
+          <a class="tab-container__item--title" href="#">Tab4</a>
+        </li>
+      </ul>
+      <section class="content-container">
+        <article id="tab1" class="content-container__content target">
+          <h1>Tab1</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+            pariatur?
+          </p>
+        </article>
+        <article id="tab2" class="content-container__content">
+          <h1>Tab2</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
+            culpa!
+          </p>
+        </article>
+        <article id="tab3" class="content-container__content">
+          <h1>Tab3</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
+            culpa!
+          </p>
+        </article>
+        <article id="tab4" class="content-container__content">
+          <h1>Tab4</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
+            culpa!
+          </p>
+        </article>
+      </section>
+    </div>
