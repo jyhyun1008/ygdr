@@ -279,34 +279,31 @@ img {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
   
-
   .container2 {
     width: 100%;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   ul.tabs{
-      margin: 0px;
+      margin: 0 auto;
       padding: 0px;
       list-style: none;
+      text-align: center;
   }
   ul.tabs li{
       background: none;
-      color: #222;
       display: inline-block;
       padding: 10px 15px;
       cursor: pointer;
   }
   
   ul.tabs li.current{
-      background: #ededed;
-      color: #222;
+      border-radius: 25px;
+      background: var(--yellow);
   }
   
   .tab-content{
       display: none;
-      background: #ededed;
-      padding: 15px;
   }
   
   .tab-content.current{

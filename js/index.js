@@ -1,16 +1,4 @@
-$(document).ready(function(){
-	
-	$('ul.tabs li').click(function(){
-		var tab_id = $(this).attr('data-tab');
 
-		$('ul.tabs li').removeClass('current');
-		$('.tab-content').removeClass('current');
-
-		$(this).addClass('current');
-		$("#"+tab_id).addClass('current');
-	})
-
-})
 
 
 let vh = window.innerHeight * 0.01;
@@ -165,6 +153,21 @@ if (!page) {
     .then((out) => {
         document.querySelector(".page_title").innerText = page.substring(page.lastIndexOf('/') + 1)
         document.querySelector("#post").innerHTML += parseMd(out)
+        
+        $(document).ready(function(){
+	
+            $('ul.tabs li').click(function(){
+                var tab_id = $(this).attr('data-tab');
+        
+                $('ul.tabs li').removeClass('current');
+                $('.tab-content').removeClass('current');
+        
+                $(this).addClass('current');
+                $("#"+tab_id).addClass('current');
+            })
+        
+        })
     })
     .catch(err => { throw err });
+    
 }
