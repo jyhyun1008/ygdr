@@ -37,6 +37,8 @@ footer{
   height: 150px;
   position : relative;
   transform : translateY(-100%);
+  background-color: var(--yellow);
+  text-align: center;
 }
 
   .wrapper{
