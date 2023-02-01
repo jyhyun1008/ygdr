@@ -2,7 +2,7 @@
 # Characters
 
 <div class="container2">
-	<ul class="tabs">
+	<ul class="tabs" style="max-width: 700px;">
 		<li class="tab-link current" data-tab="tab-1"><img src="./assets/chr/Duanmuci/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #8041D9;"></li>
 		<li class="tab-link" data-tab="tab-2"><img src="./assets/chr/Zaiyu/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #1DD296;"></li>
 		<li class="tab-link" data-tab="tab-3"><img src="./assets/chr/Ranqiu/face.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #C4B68F;"></li>
