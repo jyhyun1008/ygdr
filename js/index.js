@@ -131,7 +131,7 @@ function getQueryStringObject() {
 }
 
 var qs = getQueryStringObject();
-var page = qs.page;
+var page = qs.p;
 
 
 if (!page) {
@@ -144,7 +144,7 @@ if (!page) {
     })
     .catch(err => { throw err });
 } else if (page) {
-    var url = "https://raw.githubusercontent.com/jyhyun1008/hgjs/main/page/"+page+".md"
+    var url = "https://raw.githubusercontent.com/jyhyun1008/ygdr/main/page/"+page+".md"
     fetch(url)
     .then(res => res.text())
     .then((out) => {

@@ -3,7 +3,7 @@
 
 * 홈페이지를 이전하였습니다. `2023-02-01`
 
-# New Media
+# New Video
 
 
 <div class="gallery-container">
